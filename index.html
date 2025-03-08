@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="header">
+<header>
     <h1>Library Catalogue</h1>
-    <div class="departments">
+    <nav>
         <h2>Library Departments</h2>
         <ul>
             <li><a href="#fiction">Fiction</a></li>
@@ -18,106 +18,107 @@
             <li><a href="#reference">Reference</a></li>
             <li><a href="#history">History</a></li>
         </ul>
-    </div>
-</div>
+    </nav>
+</header>
 
-<div class="catalog">
-    <div class="book" data-title="The Catcher in the Rye" data-author="J.D. Salinger" data-link="https://example.com/book1" data-isbn="978-0-316-76948-0" data-department="Fiction">
-        <span class="book-title">The Catcher in the Rye</span>
-        <span class="author">J.D. Salinger</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="1984" data-author="George Orwell" data-link="https://example.com/book2" data-isbn="978-0-452-28423-4" data-department="Fiction">
-        <span class="book-title">1984</span>
-        <span class="author">George Orwell</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="To Kill a Mockingbird" data-author="Harper Lee" data-link="https://example.com/book3" data-isbn="978-0-06-112008-4" data-department="Fiction">
-        <span class="book-title">To Kill a Mockingbird</span>
-        <span class="author">Harper Lee</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="Brave New World" data-author="Aldous Huxley" data-link="https://example.com/book4" data-isbn="978-0-06-085052-3" data-department="Fiction">
-        <span class="book-title">Brave New World</span>
-        <span class="author">Aldous Huxley</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="The Great Gatsby" data-author="F. Scott Fitzgerald" data-link="https://example.com/book5" data-isbn="978-0-7432-7356-5" data-department="Fiction">
-        <span class="book-title">The Great Gatsby</span>
-        <span class="author">F. Scott Fitzgerald</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="Moby-Dick" data-author="Herman Melville" data-link="https://example.com/book6" data-isbn="978-0-14-243724-7" data-department="Fiction">
-        <span class="book-title">Moby-Dick</span>
-        <span class="author">Herman Melville</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="Pride and Prejudice" data-author="Jane Austen" data-link="https://example.com/book7" data-isbn="978-1-85326-000-1" data-department="Fiction">
-        <span class="book-title">Pride and Prejudice</span>
-        <span class="author">Jane Austen</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="The Hobbit" data-author="J.R.R. Tolkien" data-link="https://example.com/book8" data-isbn="978-0-618-00221-3" data-department="Fantasy">
-        <span class="book-title">The Hobbit</span>
-        <span class="author">J.R.R. Tolkien</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="Harry Potter and the Sorcerer's Stone" data-author="J.K. Rowling" data-link="https://example.com/book9" data-isbn="978-0-439-06486-6" data-department="Fantasy">
-        <span class="book-title">Harry Potter and the Sorcerer's Stone</span>
-        <span class="author">J.K. Rowling</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-    <div class="book" data-title="The Lord of the Rings" data-author="J.R.R. Tolkien" data-link="https://example.com/book10" data-isbn="978-0-618-12902-0" data-department="Fantasy">
-        <span class="book-title">The Lord of the Rings</span>
-        <span class="author">J.R.R. Tolkien</span>
-        <button class="borrow-btn">Borrow</button>
-    </div>
-</div>
+<main>
+    <section class="catalog">
+        <div class="book" data-title="The Catcher in the Rye" data-author="J.D. Salinger" data-link="https://example.com/book1" data-isbn="978-0-316-76948-0" data-department="Fiction">
+            <span class="book-title">The Catcher in the Rye</span>
+            <span class="author">J.D. Salinger</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="1984" data-author="George Orwell" data-link="https://example.com/book2" data-isbn="978-0-452-28423-4" data-department="Fiction">
+            <span class="book-title">1984</span>
+            <span class="author">George Orwell</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="To Kill a Mockingbird" data-author="Harper Lee" data-link="https://example.com/book3" data-isbn="978-0-06-112008-4" data-department="Fiction">
+            <span class="book-title">To Kill a Mockingbird</span>
+            <span class="author">Harper Lee</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="Brave New World" data-author="Aldous Huxley" data-link="https://example.com/book4" data-isbn="978-0-06-085052-3" data-department="Fiction">
+            <span class="book-title">Brave New World</span>
+            <span class="author">Aldous Huxley</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="The Great Gatsby" data-author="F. Scott Fitzgerald" data-link="https://example.com/book5" data-isbn="978-0-7432-7356-5" data-department="Fiction">
+            <span class="book-title">The Great Gatsby</span>
+            <span class="author">F. Scott Fitzgerald</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="Moby-Dick" data-author="Herman Melville" data-link="https://example.com/book6" data-isbn="978-0-14-243724-7" data-department="Fiction">
+            <span class="book-title">Moby-Dick</span>
+            <span class="author">Herman Melville</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="Pride and Prejudice" data-author="Jane Austen" data-link="https://example.com/book7" data-isbn="978-1-85326-000-1" data-department="Fiction">
+            <span class="book-title">Pride and Prejudice</span>
+            <span class="author">Jane Austen</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="The Hobbit" data-author="J.R.R. Tolkien" data-link="https://example.com/book8" data-isbn="978-0-618-00221-3" data-department="Fantasy">
+            <span class="book-title">The Hobbit</span>
+            <span class="author">J.R.R. Tolkien</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="Harry Potter and the Sorcerer's Stone" data-author="J.K. Rowling" data-link="https://example.com/book9" data-isbn="978-0-439-06486-6" data-department="Fantasy">
+            <span class="book-title">Harry Potter and the Sorcerer's Stone</span>
+            <span class="author">J.K. Rowling</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+        <div class="book" data-title="The Lord of the Rings" data-author="J.R.R. Tolkien" data-link="https://example.com/book10" data-isbn="978-0-618-12902-0" data-department="Fantasy">
+            <span class="book-title">The Lord of the Rings</span>
+            <span class="author">J.R.R. Tolkien</span>
+            <button class="borrow-btn">Borrow</button>
+        </div>
+    </section>
 
-<div id="tooltip" class="tooltip"></div>
+    <section id="tooltip" class="tooltip"></section>
 
-<!-- Modal for Borrowing -->
-<div id="borrow-modal" class="modal">
-    <div class="modal-content">
-        <span id="close-modal" class="close-btn">&times;</span>
-        <h2>Borrow Book</h2>
-        <form id="borrow-form">
-            <label for="reader-name">Reader Name:</label>
-            <input type="text" id="reader-name" name="reader-name" required><br><br>
-            <label for="library-number">Library Number (optional):</label>
-            <input type="text" id="library-number" name="library-number"><br><br>
-            <label for="reader-email">Email:</label>
-            <input type="email" id="reader-email" name="reader-email" required><br><br>
-            <button type="submit">Borrow it</button>
-            <button type="button" id="close-modal-btn">Close</button>
-        </form>
-    </div>
-</div>
+    <section id="borrow-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close-btn">&times;</span>
+            <h2>Borrow Book</h2>
+            <form id="borrow-form">
+                <label for="reader-name">Reader Name:</label>
+                <input type="text" id="reader-name" name="reader-name" required><br><br>
+                <label for="library-number">Library Number (optional):</label>
+                <input type="text" id="library-number" name="library-number"><br><br>
+                <label for="reader-email">Email:</label>
+                <input type="email" id="reader-email" name="reader-email" required><br><br>
+                <button type="submit">Borrow it</button>
+                <button type="button" id="close-modal-btn">Close</button>
+            </form>
+        </div>
+    </section>
 
-<div class="footer">
-    <div class="column">
-        <ul>
-            <li><a href="#">Departments</a></li>
-            <li><a href="#">Library Rooms</a></li>
-            <li><a href="#">Catalog</a></li>
-        </ul>
-    </div>
-    <div class="column">
-        <ul>
-            <li><a href="#">How to be a Member</a></li>
-            <li><a href="#">How to Borrow a Book</a></li>
-            <li><a href="#">How to Make a Copy</a></li>
-            <li><a href="#">Library Rules</a></li>
-        </ul>
-    </div>
-    <div class="column">
-        <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Donations</a></li>
-        </ul>
-    </div>
-</div>
+    <footer class="footer">
+        <div class="column">
+            <ul>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">Library Rooms</a></li>
+                <li><a href="#">Catalog</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li><a href="#">How to be a Member</a></li>
+                <li><a href="#">How to Borrow a Book</a></li>
+                <li><a href="#">How to Make a Copy</a></li>
+                <li><a href="#">Library Rules</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Donations</a></li>
+            </ul>
+        </div>
+    </footer>
+</main>
 
 <script src="script.js"></script>
 </body>
