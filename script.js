@@ -35,10 +35,20 @@ books.forEach(book => {
     });
 });
 
+// Keep tooltip visible when mouse hovers over the tooltip itself
+tooltip.addEventListener('mouseover', () => {
+    tooltip.style.display = 'block';
+});
+
+// Hide tooltip when mouse leaves tooltip
+tooltip.addEventListener('mouseleave', () => {
+    tooltip.style.display = 'none';
+});
+
 // Show modal when "borrow" button is clicked
 borrowBtns.forEach(button => {
     button.addEventListener('click', () => {
-        modal.style.display = 'block';
+        modal.style.display = 'flex';
     });
 });
 
